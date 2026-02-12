@@ -1,0 +1,4 @@
+interface:
+  display_name: "TopConf Paper Collector"
+  short_description: "Collect top-conference papers, including security top-4 and KDD, with optional OA PDF download"
+  default_prompt: "Collect top-conference papers including IEEE S&P, USENIX Security, CCS, NDSS, and KDD using multi-step, multi-source, and multi-method retrieval (OpenAlex/Crossref/Semantic Scholar/OpenReview), deduplicate metadata, and optionally download open-access PDFs with compliance-safe behavior."

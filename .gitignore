@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.pyd
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+.coverage
+.coverage.*
+
+# Keep release artifacts in version control
+!dist/
+!dist/*.tar.gz
+!dist/*.zip
+!dist/*.sha256
